@@ -1,4 +1,4 @@
-package com.example.petshop;
+package com.example.petshop.pet;
 
 import lombok.Data;
 

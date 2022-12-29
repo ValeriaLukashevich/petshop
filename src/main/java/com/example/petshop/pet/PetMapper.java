@@ -1,6 +1,5 @@
 package com.example.petshop.pet;
 
-import com.example.petshop.PetRequest;
 import org.mapstruct.*;
 
 import java.util.List;
@@ -9,17 +8,7 @@ import java.util.List;
 public interface PetMapper {
 
 
-//    @Mapping(source = "userId", target = "user.id")
-//    @Mapping(source = "typeName", target = "type.name")
-//    @Mapping(source = "typeId", target = "")
-//    @Mapping(source = "countryName", target = "")
-//    @Mapping(source = "countryId", target = "country.id")
-//    @Mapping(source = "colorColor", target = "color.color")
-//    @Mapping(source = "colorId", target = "color.id")
-//    @Mapping(source = "petCode", target = "code")
-//    @Mapping(source = "petName", target = "name")
-//    @Mapping(source = "petId", target = "id")
-//    Pet toEntity(PetDto petDto);
+
 
     @Mapping(source = "type.name", target = "typeName")
     @Mapping(source = "type.id", target = "typeId")
